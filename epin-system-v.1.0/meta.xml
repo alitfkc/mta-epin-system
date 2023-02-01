@@ -1,0 +1,43 @@
+<meta>
+	<info author="Metascript -Beyonder, Gangsta" description="Market ve E-pin" type="script"/>
+
+    <!-- PANELLER LUA -->
+    <script src="ayarlar.lua" type="shared" cache="false"/>
+    <script src="paneller/anapanel.lua" type="client" cache="false"/>
+    <script src="market_urunler/market_urun.lua" type="shared" cache="false"/>
+    <script src="paneller/market_tab.lua" type="client" cache="false"/>
+    <script src="market_urunler/market_c.lua" type="client" cache="false"/>
+    <script src="market_urunler/market_s.lua" type="server" cache="false"/>
+    <script src="paneller/epin_cuzdan_tab.lua" type="client" cache="false"/>
+    <script src="paneller/panel_client.lua" type="client" cache="false"/>
+    
+    <file src="resimler/edit.png"/>
+    <file src="resimler/kutu.png"/>
+    <file src="resimler/buton.png"/>
+    <file src="resimler/market_icon.png"/>
+    <file src="resimler/epin_icon.png"/>
+    <file src="resimler/cuzdan_icon.png"/>
+    <file src="resimler/sunucu_logo.png"/>
+
+    <!-- YETKİLİ LUA -->
+    <script src="yetkili/yetkili_gui.lua" type="client" cache="false"/>
+    <script src="yetkili/yetkili_c.lua" type="client" cache="false"/>
+    <script src="yetkili/yetkili_s.lua" type="server" cache="false"/>
+    
+    <!-- Para LUA -->    
+    <script src="para/para_s.lua" type="server" cache="false"/>
+
+    <!--E-PİN LUA -->
+    <script src="epin/e_pin_server.lua" type="server" cache="false"/>
+
+    <!-- DATA LUA -->    
+    <script src="data/data_s.lua" type="server" cache="false"/>
+    
+    <!-- MARKET RESİM VE LUA  DOSYALARI NOT : MARKETE EKLEDİĞİNİZ RESİMLERİ BURAYA EKLEYİN --> 
+    <file src="market_urunler/market_resimler/vitrin.png"/>
+    <file src="market_urunler/market_resimler/goldvip.png"/>
+    <file src="market_urunler/market_resimler/bronzvip.png"/>
+    <file src="market_urunler/market_resimler/gtr.png"/>
+    <file src="market_urunler/market_resimler/grenade.png"/>
+    <file src="market_urunler/market_resimler/dollars.png"/>
+</meta>
